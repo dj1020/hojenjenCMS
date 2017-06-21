@@ -231,6 +231,10 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        /*
+         * Kenlin added alias
+         */
+        'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
     ],
 
 ];
